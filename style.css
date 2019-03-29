@@ -9,3 +9,79 @@
 	light orange color: #ec9371
 
 ******/
+body{
+	margin:0px;
+	padding:0px;
+ box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+	height: 100vh;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	scroll-behavior: auto;
+	flex-direction: column;
+	padding: 10px;
+	overflow: scroll;
+}
+
+.title{
+	align-items: center;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 2px;
+	margin:10px;
+}
+p{
+	background-color: #ec9371;
+	margin: 0px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.header{
+	display: flex;
+	flex-direction: row;
+	padding:2px;
+	justify-content: space-between;
+	align-items: center;
+	background-color:#DB4006;
+	color: white;
+	height: 30px;
+}
+
+.item{
+	margin: 10px;
+	box-sizing: border-box;
+	width: 500px;	
+	border: 1.5px solid#808B96;
+	border-radius: 5px;
+}
+.itemlist{
+	margin:10px;
+	width:500px;
+}
+
+.close{
+	font-size:20px;
+	background-color:#DB4006;
+	border: none;
+}
+
+.addfield{
+	width:500px;
+	align-items: center;
+	margin:10px;
+}
+#newtitle{
+	border:1px solid #D6DBDF;
+	height:18px;
+	background-color: #fff;
+}
+.add{
+	border:1px solid #D6DBDF;
+	height:20px;
+	border-radius: 5px;
+	background-color: #fff;
+}
